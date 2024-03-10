@@ -44,7 +44,9 @@ const solveSudokuHelper = (board, r = 0, c = 0) => {
     }
 }
 
-export default solveSudoku = board => {
+const solveSudoku = board => {
     solveSudokuHelper(board);
     return board;
 }
+
+module.exports = solveSudoku;
