@@ -49,4 +49,4 @@ const solveSudoku = board => {
     return board;
 }
 
-module.exports = solveSudoku;
+export default solveSudoku;
